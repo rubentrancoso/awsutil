@@ -1,0 +1,2 @@
+#!/bin/bash
+./aws_s3_list | xargs -L 1 ./aws_s3_delete

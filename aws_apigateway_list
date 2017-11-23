@@ -1,0 +1,7 @@
+#!/bin/bash 
+COLUMN="\$4"
+if [ "$1" == "--get-id" ]; then
+	COLUMN="\$3"
+fi
+aws apigateway get-rest-apis --output text | awk '{print '"$COLUMN"';}'
+# echo -e "$RESULT"

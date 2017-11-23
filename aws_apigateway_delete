@@ -1,0 +1,3 @@
+#!/bin/bash
+RESULT=`aws apigateway delete-rest-api --rest-api-id $1`
+echo -e "$RESULT"

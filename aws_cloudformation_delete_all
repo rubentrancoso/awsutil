@@ -1,0 +1,2 @@
+#!/bin/bash
+./aws_cloudformation_list | xargs -L 1 ./aws_cloudformation_delete

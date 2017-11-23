@@ -1,0 +1,7 @@
+#!/bin/bash
+./aws_delete_all_loggroups
+./aws_lambda_delete_all
+./aws_apigateway_delete_all
+./aws_s3_delete_all
+./aws_cloudformation_delete_all
+

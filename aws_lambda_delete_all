@@ -1,0 +1,2 @@
+#!/bin/bash
+./aws_lambda_list | xargs -L 1 ./aws_lambda_delete

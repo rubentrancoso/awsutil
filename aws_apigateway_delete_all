@@ -1,0 +1,2 @@
+#!/bin/bash
+./aws_apigateway_list --get-id  | xargs -L 1 ./aws_apigateway_delete
